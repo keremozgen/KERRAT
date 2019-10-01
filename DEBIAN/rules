@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+
+clean:
+	make clean
+
+build:
+	make
+
+binary:
+	make install DESTDIR=debian/kerrat
+	strip --strip-all debian/hello/usr/bin/kerrat
+	dh_makeshlibs
+	dh_gencontrol
+	dh_builddeb

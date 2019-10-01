@@ -1,0 +1,8 @@
+Package: Kerrat
+Version: 0.1
+Section: base
+Priority: optional
+Architecture: amd64
+Depends:
+Maintainer: Kerem Ozgen <kerem469@gmail.com>
+Description: Kerrat is a simple math operations game.
