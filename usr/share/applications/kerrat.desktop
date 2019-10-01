@@ -1,0 +1,12 @@
+[Desktop Entry]                                                                                                         Version=0.1
+Name=Kerrat
+Type=Application
+Comment=Basic math game
+Comment[tr]=Basit matematik oyunu
+Terminal=false
+Exec=kerrat
+Categories=Game
+Keywords=game;math
+GenericName=Kerrat
+
+
